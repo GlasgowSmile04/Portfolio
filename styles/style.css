@@ -11,7 +11,7 @@ h1 {
 }
 h2 {
   font-size: 2rem;
-  color: #aaa
+  color: #bbb
 }
 
 section {
@@ -24,13 +24,16 @@ section {
   justify-content: center;
   height: 100%;
   padding: 0 3rem;
-
 }
 
+.landing-wrap {
+  background: rgba(53, 92, 143, 0.6);
+  z-index: 4;
+}
 .header {
-  
-  background: #333 url('#') no-repeat center center / cover;
+  background: #333 url('imgs/landing-background.jpg') no-repeat center center / cover;
   overflow: hidden;
+  z-index: 2;
 }
 .bio {
   display: flex;
